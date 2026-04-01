@@ -31,7 +31,7 @@ public class SecurityConfig {
         CorsConfiguration config = new CorsConfiguration();
 
         config.setAllowedOrigins(List.of(
-            "ecommercebackend1-production.up.railway.app/api"
+            "https://ecommercefrontend1-production.up.railway.app"
         ));
 
         config.setAllowedMethods(List.of("GET", "POST", "PUT", "DELETE", "OPTIONS"));
